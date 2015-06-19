@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VoronoiTest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/VoronoiTest.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Jian\Desktop\άŵͼ\Voronoi\VoronoiTest.rc"" 
+Creating temporary file "C:\Users\Jian\AppData\Local\Temp\RSP78FE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/VoronoiTest.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\EdgeList.cpp"
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\Event.cpp"
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\EventHeap.cpp"
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\MainFrm.cpp"
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\Voronoi.cpp"
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\VoronoiTest.cpp"
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\VoronoiTestDoc.cpp"
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\VoronoiTestView.cpp"
+]
+Creating command line "cl.exe @C:\Users\Jian\AppData\Local\Temp\RSP78FE.tmp" 
+Creating temporary file "C:\Users\Jian\AppData\Local\Temp\RSP78FF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/VoronoiTest.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Jian\Desktop\άŵͼ\Voronoi\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Jian\AppData\Local\Temp\RSP78FF.tmp" 
+Creating temporary file "C:\Users\Jian\AppData\Local\Temp\RSP7900.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/VoronoiTest.pdb" /machine:I386 /out:"Release/VoronoiTest.exe" 
+".\Release\EdgeList.obj"
+".\Release\Event.obj"
+".\Release\EventHeap.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\Voronoi.obj"
+".\Release\VoronoiTest.obj"
+".\Release\VoronoiTestDoc.obj"
+".\Release\VoronoiTestView.obj"
+".\Release\VoronoiTest.res"
+]
+Creating command line "link.exe @C:\Users\Jian\AppData\Local\Temp\RSP7900.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+EdgeList.cpp
+Event.cpp
+EventHeap.cpp
+MainFrm.cpp
+Voronoi.cpp
+VoronoiTest.cpp
+VoronoiTestDoc.cpp
+VoronoiTestView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+VoronoiTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
