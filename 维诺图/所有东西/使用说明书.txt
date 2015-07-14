@@ -1,0 +1,11 @@
+附录：可执行文件使用说明
+
+由于我是用的matlab和c-mex接口写的程序，所以在没有安装MATLAB R2013a win64的机器上是直接跑不起来的，需要有MATLAB R2013a win64的runtime库才行。。
+
+这样就有两种方法：
+
+1、直接安装MATLAB R2013a win64 bit的程序，执行MST包里面的dots.exe或者直接在matlab界面下run dots.m文件都可以。
+
+2、安装MCRInstaller.exe（一定要MATLAB R2013a win64 bit），然后就可以运行MST包里面的dots.exe了。
+
+如果没有MCRInstaller.exe的程序（413MB），我已经上传到360云盘，地址是：http://yunpan.cn/cgwIFgVLefaSA  提取码 1249，提供下载。
