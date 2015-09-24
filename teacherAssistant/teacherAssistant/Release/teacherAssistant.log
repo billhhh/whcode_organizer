@@ -1,0 +1,30 @@
+﻿生成启动时间为 2015/4/5 16:46:09。
+     1>项目“E:\Project\teacherAssistant\teacherAssistant\teacherAssistant.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\teacherAssistant.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.2\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.2\include\QtCore /ID:\Qt\4.8.2\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Controller.cpp
+         Controller.cpp
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\teacherAssistant\Win32\Release\\teacherAssistant.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.2\lib D:\Qt\4.8.2\lib\qtmain.lib D:\Qt\4.8.2\lib\qaxserver.lib D:\Qt\4.8.2\lib\qaxcontainer.lib D:\Qt\4.8.2\lib\QtGui4.lib D:\Qt\4.8.2\lib\QtCore4.lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\teacherAssistant.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\teacherAssistant\Win32\Release\teacherAssistant.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\teacherAssistant\Win32\Release\teacherAssistant.lib" /MACHINE:X86 Release\Controller.obj
+         Release\qrc_teacherassistant.obj
+         Release\moc_teacherassistant.obj
+         Release\main.obj
+         Release\teacherassistant.obj
+         Release\Tools.obj
+         Release\xlsIO.obj
+         LINK : 没有找到 E:\Project\teacherAssistant\Win32\Release\\teacherAssistant.exe 或上一个增量链接没有生成它；正在执行完全链接
+         teacherAssistant.vcxproj -> E:\Project\teacherAssistant\Win32\Release\teacherAssistant.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Project\teacherAssistant\Win32\Release\\teacherAssistant.exe;#1" /manifest Release\teacherAssistant.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\teacherAssistant.unsuccessfulbuild”。
+         正在对“Release\teacherAssistant.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\teacherAssistant\teacherAssistant\teacherAssistant.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.97
