@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\TankSystem">
+      <UniqueIdentifier>{ccf461d5-0572-4735-89ce-5bef415bbc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TankSystem">
+      <UniqueIdentifier>{76b4129f-c1a3-4b50-a55b-fa624b166382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneSystem">
+      <UniqueIdentifier>{1d8eb43a-93e1-4452-b4b0-73de3dffaee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneSystem">
+      <UniqueIdentifier>{a1def17f-b587-42cd-b78f-4b48ce0b8441}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSystem\Tank_Controller.cpp">
+      <Filter>Source Files\TankSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSystem\Tank_Model.cpp">
+      <Filter>Source Files\TankSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSystem\Shell.cpp">
+      <Filter>Source Files\TankSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSystem\Tank_Model_TypeA.cpp">
+      <Filter>Source Files\TankSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSystem\Tank_Model_TypeB.cpp">
+      <Filter>Source Files\TankSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSystem\Tank_Model_TypeC.cpp">
+      <Filter>Source Files\TankSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSystem\Tank_Manager.cpp">
+      <Filter>Source Files\TankSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSystem\Scene_Manager.cpp">
+      <Filter>Source Files\SceneSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSystem\Scene_Object.cpp">
+      <Filter>Source Files\SceneSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSystem\Scene_Object_Land.cpp">
+      <Filter>Source Files\SceneSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics_System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Control_System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSystem\Tank_Controller.h">
+      <Filter>Header Files\TankSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSystem\Tank_Model.h">
+      <Filter>Header Files\TankSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSystem\Shell.h">
+      <Filter>Header Files\TankSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSystem\Tank_Model_TypeA.h">
+      <Filter>Header Files\TankSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSystem\Tank_Model_TypeB.h">
+      <Filter>Header Files\TankSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSystem\Tank_Model_TypeC.h">
+      <Filter>Header Files\TankSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSystem\Tank_Manager.h">
+      <Filter>Header Files\TankSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSystem\Scene_Manager.h">
+      <Filter>Header Files\SceneSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSystem\Scene_Object.h">
+      <Filter>Header Files\SceneSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSystem\Scene_Object_Land.h">
+      <Filter>Header Files\SceneSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Control_System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics_System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

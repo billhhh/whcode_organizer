@@ -1,0 +1,46 @@
+﻿生成启动时间为 2015/4/27 23:33:38。
+     1>项目“E:\Project\TankGame\TankGame\TankGame.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\TankGame.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Control_System.cpp Physics_System.cpp TankSystem\Tank_Controller.cpp TankSystem\Tank_Manager.cpp TankSystem\Tank_Model.cpp TankSystem\Tank_Model_TypeA.cpp TankSystem\Tank_Model_TypeB.cpp TankSystem\Tank_Model_TypeC.cpp
+         Control_System.cpp
+     1>Control_System.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>Control_System.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
+     1>Control_System.cpp(266): warning C4018: “<”: 有符号/无符号不匹配
+         Physics_System.cpp
+         Tank_Controller.cpp
+         Tank_Manager.cpp
+     1>TankSystem\Tank_Manager.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+     1>TankSystem\Tank_Manager.cpp(95): warning C4018: “>=”: 有符号/无符号不匹配
+         Tank_Model.cpp
+         Tank_Model_TypeA.cpp
+         Tank_Model_TypeB.cpp
+         Tank_Model_TypeC.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\TankGame\Release\TankGame.exe" /INCREMENTAL:NO /NOLOGO glut32.lib GLAUX.LIB kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\TankGame\Release\TankGame.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\TankGame\Release\TankGame.lib" /MACHINE:X86 /SAFESEH:NO Release\Control_System.obj
+         Release\Game_System.obj
+         Release\BaseDefine.obj
+         Release\main.obj
+         Release\Physics_System.obj
+         Release\Scene_Manager.obj
+         Release\Scene_Object.obj
+         Release\Scene_Object_Land.obj
+         Release\Shell.obj
+         Release\Tank_Controller.obj
+         Release\Tank_Manager.obj
+         Release\Tank_Model.obj
+         Release\Tank_Model_TypeA.obj
+         Release\Tank_Model_TypeB.obj
+         Release\Tank_Model_TypeC.obj
+         正在生成代码
+         已完成代码的生成
+         TankGame.vcxproj -> E:\Project\TankGame\Release\TankGame.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\TankGame.unsuccessfulbuild”。
+         正在对“Release\TankGame.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\TankGame\TankGame\TankGame.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.78
