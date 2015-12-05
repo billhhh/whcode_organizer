@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{77fff56f-cd21-4778-bc2d-cc2a31286bef}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{91ead466-e407-491a-81c3-bd916461fd9f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\AnswerCard">
+      <UniqueIdentifier>{b4871c84-670b-401b-bf2b-c790a6323b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CardSet">
+      <UniqueIdentifier>{9d713c4f-796e-4bf5-a98e-3d91a07a9676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AnswerCard">
+      <UniqueIdentifier>{a3a46e1c-b885-4737-bd94-465642adf4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CardSet">
+      <UniqueIdentifier>{c703678b-cd36-4af3-a012-25a78493172c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_CardSet.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ACSaveDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ACSaveDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnchorDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnchorDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnswerCardDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnswerCardDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BarCodeDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BarCodeDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ClipDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ClipDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FillPointDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FillPointDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IdPointDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IdPointDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LineDetectDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LineDetectDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MarkerDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MarkerDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\ACSaveDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\AnchorDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\AnswerCard.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\AnswerCardDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\BarCodeDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\ClipDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\DataIO.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\FillPointDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\IdPointDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\LineDetectDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\MarkerDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AddPageDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AddPageDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AddPaperDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AddPaperDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CardSetDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CardSetDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InputDpiDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InputDpiDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSet\AddPageDlg.cpp">
+      <Filter>Source Files\CardSet</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSet\AddPaperDlg.cpp">
+      <Filter>Source Files\CardSet</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSet\CardDoc.cpp">
+      <Filter>Source Files\CardSet</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSet\CardSetDlg.cpp">
+      <Filter>Source Files\CardSet</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSet\InputDpiDlg.cpp">
+      <Filter>Source Files\CardSet</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlIO\ChineseCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlIO\DataTypeConversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCardProcessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkersBoundaryTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zip\ACUnzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zip\ACZip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IsFrontDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IsFrontDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerCard\IsFrontDlg.cpp">
+      <Filter>Source Files\AnswerCard</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AddCourseDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AddCourseDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSet\AddCourseDlg.cpp">
+      <Filter>Source Files\CardSet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CardSet.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\ACSaveDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\AnchorDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\AnswerCardDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\BarCodeDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\ClipDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\FillPointDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\IdPointDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\LineDetectDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\MarkerDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\ACSaveDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\AnchorDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\AnswerCardDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\BarCodeDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\ClipDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\FillPointDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\IdPointDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\LineDetectDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\MarkerDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\AddPageDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\AddPaperDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\CardSetDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\InputDpiDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\AddPageDlg.h">
+      <Filter>Header Files\CardSet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\AddPaperDlg.h">
+      <Filter>Header Files\CardSet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\CardSetDlg.h">
+      <Filter>Header Files\CardSet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\InputDpiDlg.h">
+      <Filter>Header Files\CardSet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\IsFrontDlg.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnswerCard\IsFrontDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\AddCourseDlg.h">
+      <Filter>Header Files\CardSet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CardSet\AddCourseDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_ACSaveDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AnchorDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_BarCodeDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ClipDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_FillPointDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_IdPointDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LineDetectDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MarkerDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnswerCard\AnswerCard.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="AnswerCard\DataIO.h">
+      <Filter>Header Files\AnswerCard</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AddPageDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AddPaperDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InputDpiDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CardSet\CardDoc.h">
+      <Filter>Header Files\CardSet</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlIO\ACStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlIO\ChineseCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlIO\DataTypeConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlIO\XmlIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnswerCardProcessing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkersBoundaryTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zip\ACZip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_IsFrontDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AddCourseDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

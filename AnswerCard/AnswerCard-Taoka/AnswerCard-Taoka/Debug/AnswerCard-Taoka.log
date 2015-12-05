@@ -1,0 +1,117 @@
+﻿生成启动时间为 2015/1/14 19:45:21。
+     1>项目“E:\Project\AnswerCard-Taoka\AnswerCard-Taoka\AnswerCard-Taoka.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\AnswerCard-Taoka.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.2\include /I.\GeneratedFiles\Debug /ID:\Qt\4.8.2\include\QtCore /ID:\Qt\4.8.2\include\QtGui /ID:\Qt\4.8.2\include\QtXml /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AnswerCard\ACSaveDlg.cpp AnswerCard\AnchorDlg.cpp AnswerCard\AnswerCard.cpp AnswerCard\AnswerCardDlg.cpp AnswerCard\BarCodeDlg.cpp AnswerCard\ClipDlg.cpp AnswerCard\DataIO.cpp AnswerCard\FillPointDlg.cpp AnswerCard\IdPointDlg.cpp AnswerCard\IsFrontDlg.cpp AnswerCard\LineDetectDlg.cpp AnswerCard\MarkerDlg.cpp CardSet\AddCourseDlg.cpp CardSet\AddPageDlg.cpp CardSet\AddPaperDlg.cpp CardSet\CardDoc.cpp CardSet\CardSetDlg.cpp CardSet\InputDpiDlg.cpp GeneratedFiles\Debug\moc_ACSaveDlg.cpp GeneratedFiles\Debug\moc_AddCourseDlg.cpp GeneratedFiles\Debug\moc_AddPageDlg.cpp GeneratedFiles\Debug\moc_AddPaperDlg.cpp GeneratedFiles\Debug\moc_AnchorDlg.cpp GeneratedFiles\Debug\moc_AnswerCardDlg.cpp GeneratedFiles\Debug\moc_BarCodeDlg.cpp GeneratedFiles\Debug\moc_CardSetDlg.cpp GeneratedFiles\Debug\moc_ClipDlg.cpp GeneratedFiles\Debug\moc_FillPointDlg.cpp GeneratedFiles\Debug\moc_IdPointDlg.cpp GeneratedFiles\Debug\moc_InputDpiDlg.cpp GeneratedFiles\Debug\moc_IsFrontDlg.cpp GeneratedFiles\Debug\moc_LineDetectDlg.cpp GeneratedFiles\Debug\moc_MarkerDlg.cpp main.cpp
+         ACSaveDlg.cpp
+     1>E:\Project\AnswerCard-Taoka\AnswerCard-Taoka\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         AnchorDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         AnswerCard.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         AnswerCardDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         BarCodeDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         ClipDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         DataIO.cpp
+         FillPointDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         IdPointDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         IsFrontDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         LineDetectDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         MarkerDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         AddCourseDlg.cpp
+         AddPageDlg.cpp
+         AddPaperDlg.cpp
+         CardDoc.cpp
+         CardSetDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         InputDpiDlg.cpp
+         moc_ACSaveDlg.cpp
+         moc_AddCourseDlg.cpp
+         正在生成代码...
+         正在编译...
+         moc_AddPageDlg.cpp
+         moc_AddPaperDlg.cpp
+         moc_AnchorDlg.cpp
+         moc_AnswerCardDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         moc_BarCodeDlg.cpp
+         moc_CardSetDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         moc_ClipDlg.cpp
+         moc_FillPointDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         moc_IdPointDlg.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         moc_InputDpiDlg.cpp
+         moc_IsFrontDlg.cpp
+         moc_LineDetectDlg.cpp
+         moc_MarkerDlg.cpp
+         main.cpp
+     1>e:\project\answercard-taoka\answercard-taoka\answercard\..\XmlIO\XmlIO.h(20): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.2\include /I.\GeneratedFiles\Debug /ID:\Qt\4.8.2\include\QtCore /ID:\Qt\4.8.2\include\QtGui /ID:\Qt\4.8.2\include\QtXml /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_CardSet.cpp
+         qrc_CardSet.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\AnswerCard-Taoka\Win32\Debug\\AnswerCard-Taoka.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.2\lib QtXmld4.lib qtmaind.lib QtCored4.lib QtGuid4.lib opencv_calib3d246d.lib opencv_contrib246d.lib opencv_core246d.lib opencv_features2d246d.lib opencv_flann246d.lib opencv_gpu246d.lib opencv_highgui246d.lib opencv_imgproc246d.lib opencv_legacy246d.lib opencv_ml246d.lib opencv_objdetect246d.lib opencv_ts246d.lib opencv_video246d.lib opencv_calib3d246d.lib opencv_contrib246d.lib opencv_core246d.lib opencv_features2d246d.lib opencv_flann246d.lib opencv_gpu246d.lib opencv_highgui246d.lib opencv_imgproc246d.lib opencv_legacy246d.lib opencv_ml246d.lib opencv_nonfree246d.lib opencv_objdetect246d.lib opencv_ocl246d.lib opencv_photo246d.lib opencv_stitching246d.lib opencv_superres246d.lib opencv_ts246d.lib opencv_video246d.lib opencv_videostab246d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AnswerCard-Taoka.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\AnswerCard-Taoka\Win32\Debug\AnswerCard-Taoka.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\AnswerCard-Taoka\Win32\Debug\AnswerCard-Taoka.lib" /MACHINE:X86 Debug\AnswerCardProcessing.obj
+         Debug\ACSaveDlg.obj
+         Debug\AnchorDlg.obj
+         Debug\AnswerCard.obj
+         Debug\AnswerCardDlg.obj
+         Debug\BarCodeDlg.obj
+         Debug\ClipDlg.obj
+         Debug\DataIO.obj
+         Debug\FillPointDlg.obj
+         Debug\IdPointDlg.obj
+         Debug\IsFrontDlg.obj
+         Debug\LineDetectDlg.obj
+         Debug\MarkerDlg.obj
+         Debug\AddCourseDlg.obj
+         Debug\AddPageDlg.obj
+         Debug\AddPaperDlg.obj
+         Debug\CardDoc.obj
+         Debug\CardSetDlg.obj
+         Debug\InputDpiDlg.obj
+         Debug\moc_ACSaveDlg.obj
+         Debug\moc_AddCourseDlg.obj
+         Debug\moc_AddPageDlg.obj
+         Debug\moc_AddPaperDlg.obj
+         Debug\moc_AnchorDlg.obj
+         Debug\moc_AnswerCardDlg.obj
+         Debug\moc_BarCodeDlg.obj
+         Debug\moc_CardSetDlg.obj
+         Debug\moc_ClipDlg.obj
+         Debug\moc_FillPointDlg.obj
+         Debug\moc_IdPointDlg.obj
+         Debug\moc_InputDpiDlg.obj
+         Debug\moc_IsFrontDlg.obj
+         Debug\moc_LineDetectDlg.obj
+         Debug\moc_MarkerDlg.obj
+         Debug\qrc_CardSet.obj
+         Debug\main.obj
+         Debug\MarkersBoundaryTable.obj
+         Debug\ChineseCode.obj
+         Debug\DataTypeConversion.obj
+         Debug\ACUnzip.obj
+         Debug\ACZip.obj
+         AnswerCard-Taoka.vcxproj -> E:\Project\AnswerCard-Taoka\Win32\Debug\AnswerCard-Taoka.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Project\AnswerCard-Taoka\Win32\Debug\\AnswerCard-Taoka.exe;#1" /manifest "Debug\AnswerCard-Taoka.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\AnswerCard-Taoka.unsuccessfulbuild”。
+         正在对“Debug\AnswerCard-Taoka.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\AnswerCard-Taoka\AnswerCard-Taoka\AnswerCard-Taoka.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:31.48

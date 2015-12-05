@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="CardCombine">
+        <file>Resources/minus_.png</file>
+	<file>Resources/minus2_.png</file>
+	<file>Resources/plus2_.png</file>
+    </qresource>
+</RCC>

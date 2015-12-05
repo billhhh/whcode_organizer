@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnswerCard-Taoka", "AnswerCard-Taoka\AnswerCard-Taoka.vcxproj", "{E5191F84-08AF-4462-B45A-35F18E4548EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5191F84-08AF-4462-B45A-35F18E4548EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5191F84-08AF-4462-B45A-35F18E4548EB}.Debug|Win32.Build.0 = Debug|Win32
+		{E5191F84-08AF-4462-B45A-35F18E4548EB}.Release|Win32.ActiveCfg = Release|Win32
+		{E5191F84-08AF-4462-B45A-35F18E4548EB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
