@@ -1,0 +1,20 @@
+﻿生成启动时间为 2015/1/19 10:43:46。
+     1>项目“E:\Project\TaokaDll\Mark\Mark.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Mark.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         Mark.vcxproj -> E:\Project\TaokaDll\Debug\Mark.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Mark.unsuccessfulbuild”。
+         正在对“Debug\Mark.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\TaokaDll\Mark\Mark.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.07

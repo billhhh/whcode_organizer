@@ -1,0 +1,930 @@
+<?xml version="1.0"?>
+<TaokaInfo>
+  <!--答题卡类型-->
+  <ac_type>3</ac_type>
+  <perACInfo>
+    <!--页码-->
+    <pageId>1</pageId>
+    <!--答题卡信息-->
+    <ACInfo>
+      <!--答题卡类型-->
+      <ac_type>3</ac_type>
+      <!--试卷类型-->
+      <ac_id>1</ac_id>
+      <!--正反面标志-->
+      <isFront>true</isFront>
+      <!--分辨率-->
+      <dpi>150</dpi>
+      <!--图片尺寸-->
+      <imgSize>766 1096</imgSize>
+      <!--是否存在定位点-->
+      <isAnchorPointExist>true</isAnchorPointExist>
+      <!--是否存在定位矩形-->
+      <isAnchorRectExist>false</isAnchorRectExist>
+      <!--定位矩形-->
+      <anchorRect>0 0 0 0</anchorRect>
+      <!--选择题类型-->
+      <questionType>0</questionType>
+      <!--页码标识块-->
+      <pageMarkerInfo>
+        <!--页码标识块位置信息-->
+        <pmPosInfo>
+          <pos>0 125 30 10</pos>
+          <pos>0 188 30 9</pos>
+        </pmPosInfo>
+      </pageMarkerInfo>
+      <!--定位点-->
+      <anchorPointInfo>
+        <!--定位点数量-->
+        <num>2</num>
+        <!--定位点类型-->
+        <anchorType>10</anchorType>
+        <!--定位点位置信息-->
+        <anchorPtPosInfo>
+          <perAnchorPtPos>722 121 30 9</perAnchorPtPos>
+          <perAnchorPtPos>722 1031 30 10</perAnchorPtPos>
+        </anchorPtPosInfo>
+      </anchorPointInfo>
+      <!--虚拟标记点组-->
+      <MarkerGroupInfo>
+        <perMarkerInfo>
+          <!--虚拟标记点组号-->
+          <id>1</id>
+          <xMarkerInfo>
+            <perMarkerPos>-678 291 21 9</perMarkerPos>
+            <perMarkerPos>-648 291 21 9</perMarkerPos>
+            <perMarkerPos>-618 291 21 9</perMarkerPos>
+            <perMarkerPos>-588 291 21 9</perMarkerPos>
+            <perMarkerPos>-498 291 21 9</perMarkerPos>
+            <perMarkerPos>-468 291 21 9</perMarkerPos>
+            <perMarkerPos>-438 291 21 9</perMarkerPos>
+            <perMarkerPos>-408 291 21 9</perMarkerPos>
+            <perMarkerPos>-319 291 21 9</perMarkerPos>
+            <perMarkerPos>-289 291 21 9</perMarkerPos>
+            <perMarkerPos>-259 291 21 9</perMarkerPos>
+            <perMarkerPos>-229 291 21 9</perMarkerPos>
+            <perMarkerPos>-138 291 21 9</perMarkerPos>
+            <perMarkerPos>-108 291 21 9</perMarkerPos>
+            <perMarkerPos>-78 291 21 9</perMarkerPos>
+            <perMarkerPos>-48 291 21 9</perMarkerPos>
+          </xMarkerInfo>
+          <yMarkerInfo>
+            <perMarkerPos>0 0 30 9</perMarkerPos>
+            <perMarkerPos>0 21 30 9</perMarkerPos>
+            <perMarkerPos>0 41 30 10</perMarkerPos>
+            <perMarkerPos>0 63 30 9</perMarkerPos>
+            <perMarkerPos>0 83 30 10</perMarkerPos>
+            <perMarkerPos>0 105 30 9</perMarkerPos>
+            <perMarkerPos>0 125 30 10</perMarkerPos>
+            <perMarkerPos>0 146 30 10</perMarkerPos>
+            <perMarkerPos>0 167 30 9</perMarkerPos>
+            <perMarkerPos>0 188 30 9</perMarkerPos>
+            <perMarkerPos>0 208 30 10</perMarkerPos>
+            <perMarkerPos>0 229 30 9</perMarkerPos>
+            <perMarkerPos>0 249 30 10</perMarkerPos>
+            <perMarkerPos>0 270 30 9</perMarkerPos>
+            <perMarkerPos>0 290 30 10</perMarkerPos>
+            <perMarkerPos>0 311 30 9</perMarkerPos>
+            <perMarkerPos>0 332 30 9</perMarkerPos>
+            <perMarkerPos>0 353 30 9</perMarkerPos>
+            <perMarkerPos>0 373 30 10</perMarkerPos>
+            <perMarkerPos>0 394 30 10</perMarkerPos>
+            <perMarkerPos>0 415 30 10</perMarkerPos>
+            <perMarkerPos>0 436 30 9</perMarkerPos>
+            <perMarkerPos>0 456 30 10</perMarkerPos>
+            <perMarkerPos>0 477 30 9</perMarkerPos>
+            <perMarkerPos>0 497 30 10</perMarkerPos>
+            <perMarkerPos>0 518 30 10</perMarkerPos>
+            <perMarkerPos>0 539 30 9</perMarkerPos>
+            <perMarkerPos>0 559 30 10</perMarkerPos>
+            <perMarkerPos>0 580 30 9</perMarkerPos>
+            <perMarkerPos>0 600 30 10</perMarkerPos>
+            <perMarkerPos>0 621 30 9</perMarkerPos>
+            <perMarkerPos>0 642 30 9</perMarkerPos>
+            <perMarkerPos>0 663 30 9</perMarkerPos>
+            <perMarkerPos>0 683 30 9</perMarkerPos>
+            <perMarkerPos>0 704 30 9</perMarkerPos>
+            <perMarkerPos>0 725 30 9</perMarkerPos>
+            <perMarkerPos>0 745 30 10</perMarkerPos>
+            <perMarkerPos>0 766 30 9</perMarkerPos>
+            <perMarkerPos>0 787 30 9</perMarkerPos>
+            <perMarkerPos>0 807 30 9</perMarkerPos>
+            <perMarkerPos>0 828 30 9</perMarkerPos>
+            <perMarkerPos>0 848 30 10</perMarkerPos>
+            <perMarkerPos>0 869 30 9</perMarkerPos>
+            <perMarkerPos>0 889 30 10</perMarkerPos>
+            <perMarkerPos>0 910 30 10</perMarkerPos>
+          </yMarkerInfo>
+        </perMarkerInfo>
+      </MarkerGroupInfo>
+      <!--条码信息-->
+      <barInfo/>
+      <!--预定义填涂点组-->
+      <fillingPointGroup/>
+      <questionInfo>
+        <itemPos>
+          <!--序号-->
+          <id>50</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>25 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>49</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>24 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>48</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>23 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>47</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>22 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>46</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>21 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>45</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>19 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>44</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>18 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>43</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>17 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>42</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>16 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>41</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>15 0 3</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>40</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>25 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>39</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>24 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>38</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>23 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>37</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>22 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>36</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>21 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>35</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>19 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>34</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>18 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>33</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>17 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>32</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>16 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>31</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>15 4 7</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>30</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>25 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>29</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>24 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>28</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>23 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>27</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>22 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>26</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>21 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>25</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>19 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>24</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>18 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>23</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>17 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>22</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>16 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>21</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>15 8 11</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>20</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>37 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>19</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>36 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>18</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>35 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>17</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>34 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>16</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>33 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>15</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>31 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>14</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>30 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>13</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>29 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>12</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>28 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>11</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>27 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>10</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>25 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>9</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>24 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>8</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>23 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>7</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>22 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>6</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>21 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>5</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>19 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>4</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>18 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>3</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>17 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>2</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>16 12 15</markerIdx>
+        </itemPos>
+        <itemPos>
+          <!--序号-->
+          <id>1</id>
+          <!--标记点组号-->
+          <mark_id>1</mark_id>
+          <!--是否横向-->
+          <isCrosswise>true</isCrosswise>
+          <!--是否单选-->
+          <isSingleChoice>true</isSingleChoice>
+          <!--横向/纵向间隔，若选项排布为横向则为横向间隔-->
+          <interval>0</interval>
+          <!--题目对应定位点索引，若为横向则[0]为水平方向索引号，[1]为垂直方向对应的第一个索引号，[2]为垂直方向对应的最后一个索引号-->
+          <markerIdx>15 12 15</markerIdx>
+        </itemPos>
+      </questionInfo>
+      <!--题目背景信息-->
+      <questionBackgroundInfo>
+        <perQuestionBackgroundInfo>
+          <!--类型-->
+          <type>4</type>
+          <!--背景信息-->
+          <bkInfo>4 2 14562 13 0 0 1519 -2147483648 -2147483648 -2147483648 </bkInfo>
+        </perQuestionBackgroundInfo>
+      </questionBackgroundInfo>
+      <!--裁切区域信息-->
+      <cropAreaInfo/>
+      <!--黑白检测线-->
+      <blackLine>-722 -121 0 0</blackLine>
+      <whiteLine>-722 -121 0 0</whiteLine>
+      <!--识别参考点-->
+      <refPointInfo/>
+    </ACInfo>
+    <!--答题卡信息-->
+    <ACInfo>
+      <!--答题卡类型-->
+      <ac_type>3</ac_type>
+      <!--试卷类型-->
+      <ac_id>1</ac_id>
+      <!--正反面标志-->
+      <isFront>false</isFront>
+      <!--分辨率-->
+      <dpi>150</dpi>
+      <!--图片尺寸-->
+      <imgSize>766 1096</imgSize>
+      <!--是否存在定位点-->
+      <isAnchorPointExist>false</isAnchorPointExist>
+      <!--是否存在定位矩形-->
+      <isAnchorRectExist>false</isAnchorRectExist>
+      <!--定位矩形-->
+      <anchorRect>0 0 0 0</anchorRect>
+      <!--选择题类型-->
+      <questionType>8388621</questionType>
+      <!--页码标识块-->
+      <pageMarkerInfo>
+        <!--页码标识块位置信息-->
+        <pmPosInfo/>
+      </pageMarkerInfo>
+      <!--定位点-->
+      <anchorPointInfo>
+        <!--定位点数量-->
+        <num>0</num>
+        <!--定位点类型-->
+        <anchorType>-1</anchorType>
+        <!--定位点位置信息-->
+        <anchorPtPosInfo/>
+      </anchorPointInfo>
+      <!--虚拟标记点组-->
+      <MarkerGroupInfo/>
+      <!--条码信息-->
+      <barInfo/>
+      <!--预定义填涂点组-->
+      <fillingPointGroup/>
+      <questionInfo/>
+      <!--题目背景信息-->
+      <questionBackgroundInfo/>
+      <!--裁切区域信息-->
+      <cropAreaInfo/>
+      <!--黑白检测线-->
+      <blackLine>0 0 0 0</blackLine>
+      <whiteLine>0 0 0 0</whiteLine>
+      <!--识别参考点-->
+      <refPointInfo/>
+    </ACInfo>
+  </perACInfo>
+  <params>
+    <oldParam>
+      <PassValue>220</PassValue>
+      <ValidArea>15</ValidArea>
+      <PassValue2>220</PassValue2>
+      <ValidArea2>15</ValidArea2>
+      <MinDiff>5</MinDiff>
+      <MinDiff_multi>25</MinDiff_multi>
+      <MinDiff2>10</MinDiff2>
+      <MinDiff_multi2>30</MinDiff_multi2>
+      <view_yes>2.5</view_yes>
+      <view_no>4.5</view_no>
+      <VClockRange>2</VClockRange>
+      <HClockRange>1</HClockRange>
+      <FirstClockRange>4</FirstClockRange>
+      <CorrectOffSet>True</CorrectOffSet>
+      <VclockLimit>False</VclockLimit>
+      <HclockLimit>False</HclockLimit>
+      <GAP>5</GAP>
+      <BLACKWHITE>True</BLACKWHITE>
+      <ENABLENOTFILL>True</ENABLENOTFILL>
+      <STANDWIDTH>0</STANDWIDTH>
+      <STANDHEIGHT>0</STANDHEIGHT>
+      <ClockTooLight>False</ClockTooLight>
+      <ClockPassValue>220</ClockPassValue>
+      <firstclocklimit>False</firstclocklimit>
+    </oldParam>
+    <newParam>
+      <xRangeScale>3</xRangeScale>
+      <yRangeScale>4</yRangeScale>
+      <sensibilityThresh>0</sensibilityThresh>
+      <areaThreshold>0</areaThreshold>
+      <seSize>0</seSize>
+    </newParam>
+  </params>
+</TaokaInfo>

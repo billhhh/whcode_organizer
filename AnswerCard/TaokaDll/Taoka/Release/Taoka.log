@@ -1,0 +1,193 @@
+﻿生成启动时间为 14-11-17 10:32:24。
+     1>项目“G:\Projects\TaokaDll\Taoka\Taoka.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\Taoka.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\Taoka.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D TAOKA_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AnswerCardProcessing.cpp CropAreas.cpp DetectAnchorPoint.cpp DetectAnswer.cpp DetectBar.cpp DetectFillingPoint.cpp DetectMarkers.cpp DetectPerAC.cpp DetectRefPoint.cpp dllmain.cpp MarkAC.cpp MarkersBoundaryTable.cpp stdafx.cpp Taoka.cpp TranStruct.cpp
+         AnswerCardProcessing.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>AnswerCardProcessing.cpp(439): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>AnswerCardProcessing.cpp(440): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>AnswerCardProcessing.cpp(521): warning C4018: “<”: 有符号/无符号不匹配
+         CropAreas.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         DetectAnchorPoint.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>DetectAnchorPoint.cpp(23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(127): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(128): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(268): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(269): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(476): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(477): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(477): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(519): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnchorPoint.cpp(519): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         DetectAnswer.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>DetectAnswer.cpp(63): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectAnswer.cpp(108): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectAnswer.cpp(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectAnswer.cpp(207): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(208): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(316): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(348): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(440): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(441): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(445): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(446): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(437): warning C4101: “threshold_may_filled”: 未引用的局部变量
+     1>DetectAnswer.cpp(437): warning C4101: “threshold_true_filled”: 未引用的局部变量
+     1>DetectAnswer.cpp(612): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(615): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(620): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(662): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(663): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(710): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(711): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(717): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(718): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(725): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(726): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(777): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectAnswer.cpp(723): warning C4101: “threshold_may_filled”: 未引用的局部变量
+     1>DetectAnswer.cpp(723): warning C4101: “threshold_true_filled”: 未引用的局部变量
+         DetectBar.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>DetectBar.cpp(70): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectBar.cpp(71): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectBar.cpp(106): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectBar.cpp(107): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         DetectFillingPoint.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>DetectFillingPoint.cpp(54): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DetectFillingPoint.cpp(92): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DetectFillingPoint.cpp(129): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DetectFillingPoint.cpp(232): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectFillingPoint.cpp(233): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectFillingPoint.cpp(271): warning C4101: “threshold_may_filled”: 未引用的局部变量
+     1>DetectFillingPoint.cpp(271): warning C4101: “threshold_true_filled”: 未引用的局部变量
+         DetectMarkers.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>DetectMarkers.cpp(287): warning C4018: “>”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(300): warning C4018: “>”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(303): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(308): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(339): warning C4018: “>”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(342): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(347): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(377): warning C4018: “>”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(380): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(385): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(415): warning C4018: “>”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(418): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(423): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectMarkers.cpp(468): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectMarkers.cpp(468): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectMarkers.cpp(469): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectMarkers.cpp(469): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         DetectPerAC.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>DetectPerAC.cpp(118): warning C4552: “+”: 运算符不起任何作用；应输入带副作用的运算符
+     1>DetectPerAC.cpp(126): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(194): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(198): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(216): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(400): warning C4552: “+”: 运算符不起任何作用；应输入带副作用的运算符
+     1>DetectPerAC.cpp(402): warning C4552: “+”: 运算符不起任何作用；应输入带副作用的运算符
+     1>DetectPerAC.cpp(410): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(440): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(513): warning C4018: “<”: 有符号/无符号不匹配
+     1>DetectPerAC.cpp(520): warning C4018: “<”: 有符号/无符号不匹配
+         DetectRefPoint.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>DetectRefPoint.cpp(36): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectRefPoint.cpp(37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DetectRefPoint.cpp(123): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectRefPoint.cpp(123): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DetectRefPoint.cpp(162): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>DetectRefPoint.cpp(163): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>DetectRefPoint.cpp(164): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>DetectRefPoint.cpp(165): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>DetectRefPoint.cpp(192): warning C4018: “>=”: 有符号/无符号不匹配
+     1>DetectRefPoint.cpp(220): warning C4018: “>=”: 有符号/无符号不匹配
+         dllmain.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         MarkAC.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>MarkAC.cpp(12): warning C4273: “MarkAnswerCard”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(12) : 参见“MarkAnswerCard”的前一个定义
+     1>MarkAC.cpp(46): warning C4273: “MarkTaokaSinglePage”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(14) : 参见“MarkTaokaSinglePage”的前一个定义
+     1>MarkAC.cpp(90): warning C4273: “MarkTaokaDoublePage”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(16) : 参见“MarkTaokaDoublePage”的前一个定义
+     1>MarkAC.cpp(148): warning C4273: “MarkTaokaSPage”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(19) : 参见“MarkTaokaSPage”的前一个定义
+     1>MarkAC.cpp(163): warning C4273: “MarkTaokaDPage”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(21) : 参见“MarkTaokaDPage”的前一个定义
+     1>MarkAC.cpp(181): warning C4273: “GetCum_TkInfo”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(23) : 参见“GetCum_TkInfo”的前一个定义
+     1>MarkAC.cpp(189): warning C4273: “GetCum_TkInfo3”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(24) : 参见“GetCum_TkInfo3”的前一个定义
+     1>MarkAC.cpp(197): warning C4273: “freeCumTkInfo”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(26) : 参见“freeCumTkInfo”的前一个定义
+     1>MarkAC.cpp(229): warning C4273: “freeCumTkInfo3”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(27) : 参见“freeCumTkInfo3”的前一个定义
+     1>MarkAC.cpp(271): warning C4273: “freeResult”: dll 链接不一致
+                 g:\projects\taokadll\taoka\MarkAC.h(28) : 参见“freeResult”的前一个定义
+         MarkersBoundaryTable.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         stdafx.cpp
+         Taoka.cpp
+         TranStruct.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Projects\TaokaDll\Release\Taoka.dll" /INCREMENTAL:NO /NOLOGO "libzbar-0.lib" opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_ts246.lib opencv_video246.lib /DEF:"Taoka.def" /MANIFEST /ManifestFile:"Release\Taoka.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Projects\TaokaDll\Release\Taoka.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Projects\TaokaDll\Release\Taoka.lib" /MACHINE:X86 /PROFILE /DLL Release\AnswerCardProcessing.obj
+         Release\CropAreas.obj
+         Release\DetectAnchorPoint.obj
+         Release\DetectAnswer.obj
+         Release\DetectBar.obj
+         Release\DetectFillingPoint.obj
+         Release\DetectMarkers.obj
+         Release\DetectPerAC.obj
+         Release\DetectRefPoint.obj
+         Release\dllmain.obj
+         Release\MarkAC.obj
+         Release\MarkersBoundaryTable.obj
+         Release\stdafx.obj
+         Release\Taoka.obj
+         Release\TranStruct.obj
+            正在创建库 G:\Projects\TaokaDll\Release\Taoka.lib 和对象 G:\Projects\TaokaDll\Release\Taoka.exp
+         正在生成代码
+         已完成代码的生成
+         Taoka.vcxproj -> G:\Projects\TaokaDll\Release\Taoka.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Projects\TaokaDll\Release\Taoka.dll;#2" /manifest Release\Taoka.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Taoka.unsuccessfulbuild”。
+         正在对“Release\Taoka.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Projects\TaokaDll\Taoka\Taoka.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.87

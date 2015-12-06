@@ -1,0 +1,30 @@
+﻿生成启动时间为 14-5-08 14:52:47。
+     1>项目“D:\Projects\TaokaDll\Demo\Demo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Demo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Demo.cpp
+         Demo.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\projects\taokadll\demo\Xml.h(22): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+     1>Demo.cpp(104): warning C4101: “rResult”: 未引用的局部变量
+     1>Demo.cpp(104): warning C4101: “fResult”: 未引用的局部变量
+     1>Demo.cpp(102): warning C4101: “imgPath”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\TaokaDll\Release\Demo.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_ts246.lib opencv_video246.lib /MANIFEST /ManifestFile:"Release\Demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Projects\TaokaDll\Release\Demo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\TaokaDll\Release\Demo.lib" /MACHINE:X86 Release\Demo.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         Demo.vcxproj -> D:\Projects\TaokaDll\Release\Demo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Projects\TaokaDll\Release\Demo.exe;#1" /manifest Release\Demo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Demo.unsuccessfulbuild”。
+         正在对“Release\Demo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Projects\TaokaDll\Demo\Demo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.27

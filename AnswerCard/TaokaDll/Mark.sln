@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mark", "Mark\Mark.vcxproj", "{2E6214D2-5AB7-40EE-B96F-E17C473F1AB0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF} = {54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF}
+		{F9EAD4A3-31A7-4E46-98B8-8046497F3352} = {F9EAD4A3-31A7-4E46-98B8-8046497F3352}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XmlIO", "XmlIO\XmlIO.vcxproj", "{F9EAD4A3-31A7-4E46-98B8-8046497F3352}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC} = {BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XmlIoDll", "XmlIoDll\XmlIoDll.vcxproj", "{BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "Demo\Demo.vcxproj", "{C6C96BC2-FF91-4C4C-8546-528F5E580047}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF} = {54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF}
+		{F9EAD4A3-31A7-4E46-98B8-8046497F3352} = {F9EAD4A3-31A7-4E46-98B8-8046497F3352}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Taoka", "Taoka\Taoka.vcxproj", "{54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{70FB2E4E-2614-455D-840B-B5BC5713D09B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC} = {BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E6214D2-5AB7-40EE-B96F-E17C473F1AB0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E6214D2-5AB7-40EE-B96F-E17C473F1AB0}.Debug|Win32.Build.0 = Debug|Win32
+		{2E6214D2-5AB7-40EE-B96F-E17C473F1AB0}.Release|Win32.ActiveCfg = Release|Win32
+		{2E6214D2-5AB7-40EE-B96F-E17C473F1AB0}.Release|Win32.Build.0 = Release|Win32
+		{F9EAD4A3-31A7-4E46-98B8-8046497F3352}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9EAD4A3-31A7-4E46-98B8-8046497F3352}.Debug|Win32.Build.0 = Debug|Win32
+		{F9EAD4A3-31A7-4E46-98B8-8046497F3352}.Release|Win32.ActiveCfg = Release|Win32
+		{F9EAD4A3-31A7-4E46-98B8-8046497F3352}.Release|Win32.Build.0 = Release|Win32
+		{BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC}.Debug|Win32.Build.0 = Debug|Win32
+		{BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC}.Release|Win32.ActiveCfg = Release|Win32
+		{BE8F6EF1-FDEE-4E59-AED3-743C9BA130CC}.Release|Win32.Build.0 = Release|Win32
+		{C6C96BC2-FF91-4C4C-8546-528F5E580047}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6C96BC2-FF91-4C4C-8546-528F5E580047}.Debug|Win32.Build.0 = Debug|Win32
+		{C6C96BC2-FF91-4C4C-8546-528F5E580047}.Release|Win32.ActiveCfg = Release|Win32
+		{C6C96BC2-FF91-4C4C-8546-528F5E580047}.Release|Win32.Build.0 = Release|Win32
+		{54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF}.Debug|Win32.Build.0 = Debug|Win32
+		{54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF}.Release|Win32.ActiveCfg = Release|Win32
+		{54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF}.Release|Win32.Build.0 = Release|Win32
+		{70FB2E4E-2614-455D-840B-B5BC5713D09B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70FB2E4E-2614-455D-840B-B5BC5713D09B}.Debug|Win32.Build.0 = Debug|Win32
+		{70FB2E4E-2614-455D-840B-B5BC5713D09B}.Release|Win32.ActiveCfg = Release|Win32
+		{70FB2E4E-2614-455D-840B-B5BC5713D09B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

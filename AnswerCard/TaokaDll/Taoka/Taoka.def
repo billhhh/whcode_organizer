@@ -1,0 +1,11 @@
+LIBRARY
+EXPORTS
+MarkTaokaSinglePage
+MarkTaokaDoublePage
+MarkTaokaSPage
+MarkTaokaDPage
+GetCum_TkInfo
+GetCum_TkInfo3
+freeCumTkInfo
+freeCumTkInfo3
+freeResult

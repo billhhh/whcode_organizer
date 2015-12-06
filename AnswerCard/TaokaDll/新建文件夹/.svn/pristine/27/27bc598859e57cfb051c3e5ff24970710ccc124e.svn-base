@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54D2A07C-CA9A-46CF-8B5F-0C9309C2ACBF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Taoka</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>h:\opencv\build\include;h:\opencv\build\include\opencv;h:\opencv\build\include\opencv2;E:\Work\svn\Odin\MstScan\trunk\NewAlgorithm\src\ref\zbar\include;$(IncludePath)</IncludePath>
+    <LibraryPath>h:\opencv\build\x86\vc10\bin;h:\opencv\build\x86\vc10\lib;E:\Work\svn\Odin\MstScan\trunk\NewAlgorithm\src\ref\zbar\lib;$(LibraryPath)</LibraryPath>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>h:\opencv\build\include;h:\opencv\build\include\opencv;h:\opencv\build\include\opencv2;E:\Work\svn\Odin\MstScan\trunk\NewAlgorithm\src\ref\zbar\include;$(IncludePath)</IncludePath>
+    <LibraryPath>h:\opencv\build\x86\vc10\bin;h:\opencv\build\x86\vc10\lib;E:\Work\svn\Odin\MstScan\trunk\NewAlgorithm\src\ref\zbar\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TAOKA_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libzbar-0.lib;opencv_calib3d246d.lib;opencv_contrib246d.lib;opencv_core246d.lib;opencv_features2d246d.lib;opencv_flann246d.lib;opencv_gpu246d.lib;opencv_highgui246d.lib;opencv_imgproc246d.lib;opencv_legacy246d.lib;opencv_ml246d.lib;opencv_objdetect246d.lib;opencv_ts246d.lib;opencv_video246d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>Taoka.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TAOKA_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libzbar-0.lib;opencv_calib3d246.lib;opencv_contrib246.lib;opencv_core246.lib;opencv_features2d246.lib;opencv_flann246.lib;opencv_gpu246.lib;opencv_highgui246.lib;opencv_imgproc246.lib;opencv_legacy246.lib;opencv_ml246.lib;opencv_objdetect246.lib;opencv_ts246.lib;opencv_video246.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>Taoka.def</ModuleDefinitionFile>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ACStructs.h" />
+    <ClInclude Include="AnswerCardProcessing.h" />
+    <ClInclude Include="CropAreas.h" />
+    <ClInclude Include="CommonStruct.h" />
+    <ClInclude Include="DetectAnchorPoint.h" />
+    <ClInclude Include="DetectAnswer.h" />
+    <ClInclude Include="DetectBar.h" />
+    <ClInclude Include="DetectFillingPoint.h" />
+    <ClInclude Include="DetectMarkers.h" />
+    <ClInclude Include="DetectPerAC.h" />
+    <ClInclude Include="DetectRefPoint.h" />
+    <ClInclude Include="MarkAC.h" />
+    <ClInclude Include="MarkersBoundaryTable.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TranStruct.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnswerCardProcessing.cpp" />
+    <ClCompile Include="CropAreas.cpp" />
+    <ClCompile Include="DetectAnchorPoint.cpp" />
+    <ClCompile Include="DetectAnswer.cpp" />
+    <ClCompile Include="DetectBar.cpp" />
+    <ClCompile Include="DetectFillingPoint.cpp" />
+    <ClCompile Include="DetectMarkers.cpp" />
+    <ClCompile Include="DetectPerAC.cpp" />
+    <ClCompile Include="DetectRefPoint.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="MarkAC.cpp" />
+    <ClCompile Include="MarkersBoundaryTable.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Taoka.cpp" />
+    <ClCompile Include="TranStruct.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Taoka.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

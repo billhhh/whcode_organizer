@@ -1,0 +1,144 @@
+﻿生成启动时间为 14-11-17 10:32:24。
+     1>项目“G:\Projects\TaokaDll\XmlIoDll\XmlIoDll.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\XmlIoDll.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\XmlIoDll.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D XMLIODLL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\XmlIoDll.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D XMLIODLL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\XmlIoDll.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChineseCode.cpp DataTypeConversion.cpp XmlIO.cpp XmlIoDll.cpp
+         ChineseCode.cpp
+         DataTypeConversion.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         XmlIO.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>XmlIO.cpp(18): warning C4273: “XmlIo::Write”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(25) : 参见“Write”的前一个定义
+     1>XmlIO.cpp(54): warning C4273: “XmlIo::Write”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(26) : 参见“Write”的前一个定义
+     1>XmlIO.cpp(93): warning C4273: “XmlIo::Write”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(23) : 参见“Write”的前一个定义
+     1>XmlIO.cpp(114): warning C4273: “XmlIo::Write”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(24) : 参见“Write”的前一个定义
+     1>XmlIO.cpp(150): warning C4273: “XmlIo::WriteACInfo3”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(30) : 参见“WriteACInfo3”的前一个定义
+     1>XmlIO.cpp(220): warning C4273: “XmlIo::WriteACInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(32) : 参见“WriteACInfo”的前一个定义
+     1>XmlIO.cpp(292): warning C4273: “XmlIo::WritePageMarkerInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(34) : 参见“WritePageMarkerInfo”的前一个定义
+     1>XmlIO.cpp(310): warning C4273: “XmlIo::WriteAnchorPointInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(36) : 参见“WriteAnchorPointInfo”的前一个定义
+     1>XmlIO.cpp(341): warning C4273: “XmlIo::WriteMarkerInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(38) : 参见“WriteMarkerInfo”的前一个定义
+     1>XmlIO.cpp(375): warning C4273: “XmlIo::WriteMarkerInfo3”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(40) : 参见“WriteMarkerInfo3”的前一个定义
+     1>XmlIO.cpp(388): warning C4018: “<”: 有符号/无符号不匹配
+     1>XmlIO.cpp(394): warning C4018: “<”: 有符号/无符号不匹配
+     1>XmlIO.cpp(403): warning C4273: “XmlIo::WriteIdPointInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(42) : 参见“WriteIdPointInfo”的前一个定义
+     1>XmlIO.cpp(420): warning C4273: “XmlIo::WriteBarInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(44) : 参见“WriteBarInfo”的前一个定义
+     1>XmlIO.cpp(440): warning C4273: “XmlIo::WriteFillingPointsInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(46) : 参见“WriteFillingPointsInfo”的前一个定义
+     1>XmlIO.cpp(463): warning C4273: “XmlIo::WriteFillingPointsInfo3”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(48) : 参见“WriteFillingPointsInfo3”的前一个定义
+     1>XmlIO.cpp(493): warning C4273: “XmlIo::WriteItemPosInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(50) : 参见“WriteItemPosInfo”的前一个定义
+     1>XmlIO.cpp(516): warning C4273: “XmlIo::WriteFillingpointItemPos”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(52) : 参见“WriteFillingpointItemPos”的前一个定义
+     1>XmlIO.cpp(526): warning C4018: “<”: 有符号/无符号不匹配
+     1>XmlIO.cpp(534): warning C4273: “XmlIo::WriteFillingPointBackgroundInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(54) : 参见“WriteFillingPointBackgroundInfo”的前一个定义
+     1>XmlIO.cpp(558): warning C4273: “XmlIo::WriteQuestionInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(56) : 参见“WriteQuestionInfo”的前一个定义
+     1>XmlIO.cpp(571): warning C4273: “XmlIo::WriteQuestionBackgroundInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(58) : 参见“WriteQuestionBackgroundInfo”的前一个定义
+     1>XmlIO.cpp(596): warning C4273: “XmlIo::WriteCropAreaInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(60) : 参见“WriteCropAreaInfo”的前一个定义
+     1>XmlIO.cpp(624): warning C4273: “XmlIo::WriteBlackWhiteLine”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(62) : 参见“WriteBlackWhiteLine”的前一个定义
+     1>XmlIO.cpp(634): warning C4273: “XmlIo::WriteRefPoint”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(64) : 参见“WriteRefPoint”的前一个定义
+     1>XmlIO.cpp(647): warning C4273: “XmlIo::WriteMarker”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(66) : 参见“WriteMarker”的前一个定义
+     1>XmlIO.cpp(648): warning C4018: “<”: 有符号/无符号不匹配
+     1>XmlIO.cpp(668): warning C4273: “XmlIo::Read”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(20) : 参见“Read”的前一个定义
+     1>XmlIO.cpp(730): warning C4273: “XmlIo::Read”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(21) : 参见“Read”的前一个定义
+     1>XmlIO.cpp(793): warning C4273: “XmlIo::GetACType”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(22) : 参见“GetACType”的前一个定义
+     1>XmlIO.cpp(828): warning C4273: “XmlIo::Read”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(18) : 参见“Read”的前一个定义
+     1>XmlIO.cpp(851): warning C4273: “XmlIo::Read”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(19) : 参见“Read”的前一个定义
+     1>XmlIO.cpp(878): warning C4273: “XmlIo::ReadACInfo3”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(71) : 参见“ReadACInfo3”的前一个定义
+     1>XmlIO.cpp(1051): warning C4273: “XmlIo::ReadACInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(69) : 参见“ReadACInfo”的前一个定义
+     1>XmlIO.cpp(1217): warning C4273: “XmlIo::ReadAnchorPointInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(73) : 参见“ReadAnchorPointInfo”的前一个定义
+     1>XmlIO.cpp(1250): warning C4273: “XmlIo::ReadPageMakerInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(75) : 参见“ReadPageMakerInfo”的前一个定义
+     1>XmlIO.cpp(1268): warning C4273: “XmlIo::ReadMarkerInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(77) : 参见“ReadMarkerInfo”的前一个定义
+     1>XmlIO.cpp(1317): warning C4273: “XmlIo::ReadMarkerGroupInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(78) : 参见“ReadMarkerGroupInfo”的前一个定义
+     1>XmlIO.cpp(1361): warning C4273: “XmlIo::ReadIdPointInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(80) : 参见“ReadIdPointInfo”的前一个定义
+     1>XmlIO.cpp(1379): warning C4273: “XmlIo::ReadBarInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(82) : 参见“ReadBarInfo”的前一个定义
+     1>XmlIO.cpp(1408): warning C4273: “XmlIo::ReadFillingPointsInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(84) : 参见“ReadFillingPointsInfo”的前一个定义
+     1>XmlIO.cpp(1449): warning C4273: “XmlIo::ReadFillingPointsInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(85) : 参见“ReadFillingPointsInfo”的前一个定义
+     1>XmlIO.cpp(1505): warning C4273: “XmlIo::ReadItemPos”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(105) : 参见“ReadItemPos”的前一个定义
+     1>XmlIO.cpp(1564): warning C4273: “XmlIo::ReadFillingpointItemPos”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(88) : 参见“ReadFillingpointItemPos”的前一个定义
+     1>XmlIO.cpp(1596): warning C4273: “XmlIo::ReadFillingPointBackgroundInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(90) : 参见“ReadFillingPointBackgroundInfo”的前一个定义
+     1>XmlIO.cpp(1626): warning C4273: “XmlIo::ReadQuestionInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(92) : 参见“ReadQuestionInfo”的前一个定义
+     1>XmlIO.cpp(1644): warning C4273: “XmlIo::ReadQuestionBackgroundInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(94) : 参见“ReadQuestionBackgroundInfo”的前一个定义
+     1>XmlIO.cpp(1674): warning C4273: “XmlIo::ReadCropAreaInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(96) : 参见“ReadCropAreaInfo”的前一个定义
+     1>XmlIO.cpp(1717): warning C4273: “XmlIo::ReadRefPoint”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(107) : 参见“ReadRefPoint”的前一个定义
+     1>XmlIO.cpp(1730): warning C4273: “XmlIo::ReadMarker”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(109) : 参见“ReadMarker”的前一个定义
+     1>XmlIO.cpp(1758): warning C4273: “XmlIo::GetNextElement”: dll 链接不一致
+                 g:\projects\taokadll\xmliodll\XmlIo.h(103) : 参见“GetNextElement”的前一个定义
+         XmlIoDll.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D XMLIODLL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Projects\TaokaDll\Release\XmlIoDll.dll" /INCREMENTAL:NO /NOLOGO iconv.lib charset.lib libxml2.lib libxml2_a.lib libxml2_a_dll.lib "libzbar-0.lib" opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_ts246.lib opencv_video246.lib zdll.lib zlib.lib /MANIFEST /ManifestFile:"Release\XmlIoDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Projects\TaokaDll\Release\XmlIoDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Projects\TaokaDll\Release\XmlIoDll.lib" /MACHINE:X86 /DLL Release\ChineseCode.obj
+         Release\DataTypeConversion.obj
+         Release\dllmain.obj
+         Release\stdafx.obj
+         Release\XmlIO.obj
+         Release\XmlIoDll.obj
+            正在创建库 G:\Projects\TaokaDll\Release\XmlIoDll.lib 和对象 G:\Projects\TaokaDll\Release\XmlIoDll.exp
+         正在生成代码
+     1>g:\projects\taokadll\xmliodll\xmlio.cpp(1264): warning C4715: “XmlIo::ReadPageMakerInfo”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         XmlIoDll.vcxproj -> G:\Projects\TaokaDll\Release\XmlIoDll.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Projects\TaokaDll\Release\XmlIoDll.dll;#2" /manifest Release\XmlIoDll.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\XmlIoDll.unsuccessfulbuild”。
+         正在对“Release\XmlIoDll.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Projects\TaokaDll\XmlIoDll\XmlIoDll.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.02

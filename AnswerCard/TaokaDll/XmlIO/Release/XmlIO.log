@@ -1,0 +1,44 @@
+﻿生成启动时间为 14-11-17 10:32:33。
+     1>项目“G:\Projects\TaokaDll\XmlIO\XmlIO.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\XmlIO.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\XmlIO.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D XMLIO_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\XmlIO.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D XMLIO_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D XMLIO_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\XmlIO.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt XmlIO.cpp
+         XmlIO.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\projects\taokadll\xmlio\XmlIODLL.h(23): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+     1>XmlIO.cpp(10): warning C4273: “GetACInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmlio\XmlIO.h(9) : 参见“GetACInfo”的前一个定义
+     1>XmlIO.cpp(42): warning C4273: “GetTKInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmlio\XmlIO.h(11) : 参见“GetTKInfo”的前一个定义
+     1>XmlIO.cpp(71): warning C4273: “freeACInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmlio\XmlIO.h(12) : 参见“freeACInfo”的前一个定义
+     1>XmlIO.cpp(84): warning C4273: “freeTkInfo”: dll 链接不一致
+                 g:\projects\taokadll\xmlio\XmlIO.h(13) : 参见“freeTkInfo”的前一个定义
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Projects\TaokaDll\Release\XmlIO.dll" /INCREMENTAL:NO /NOLOGO opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_ts246.lib opencv_video246.lib /DEF:"XmlIO.def" /MANIFEST /ManifestFile:"Release\XmlIO.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Projects\TaokaDll\Release\XmlIO.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Projects\TaokaDll\Release\XmlIO.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\stdafx.obj
+         Release\XmlIO.obj
+     1>XmlIO.def(2): warning LNK4017: GetTKInfo 语句不支持目标平台；已忽略
+     1>XmlIO.def(2): warning LNK4017: freeTkInfo 语句不支持目标平台；已忽略
+            正在创建库 G:\Projects\TaokaDll\Release\XmlIO.lib 和对象 G:\Projects\TaokaDll\Release\XmlIO.exp
+         正在生成代码
+         已完成代码的生成
+         XmlIO.vcxproj -> G:\Projects\TaokaDll\Release\XmlIO.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Projects\TaokaDll\Release\XmlIO.dll;#2" /manifest Release\XmlIO.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\XmlIO.unsuccessfulbuild”。
+         正在对“Release\XmlIO.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Projects\TaokaDll\XmlIO\XmlIO.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.13

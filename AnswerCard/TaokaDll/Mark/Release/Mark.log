@@ -1,0 +1,52 @@
+﻿生成启动时间为 14-11-17 10:32:43。
+     1>项目“G:\Projects\TaokaDll\Mark\Mark.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\Mark.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\Mark.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Mark.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Mark.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Mark.cpp TimeCounter.cpp
+         Mark.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>Mark.cpp(160): warning C4800: “char *”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>Mark.cpp(268): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Mark.cpp(545): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(558): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(596): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(621): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(640): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(668): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(720): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(744): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(785): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(811): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(831): warning C4018: “<”: 有符号/无符号不匹配
+     1>Mark.cpp(857): warning C4018: “<”: 有符号/无符号不匹配
+         TimeCounter.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TraversingFile\TraversingFile.cpp
+         TraversingFile.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\Mark.res" Mark.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Projects\TaokaDll\Release\Mark.exe" /INCREMENTAL:NO /NOLOGO iconv.lib charset.lib libxml2.lib libxml2_a.lib libxml2_a_dll.lib "libzbar-0.lib" opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_ts246.lib opencv_video246.lib zdll.lib zlib.lib /MANIFEST /ManifestFile:"Release\Mark.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Projects\TaokaDll\Release\Mark.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Projects\TaokaDll\Release\Mark.lib" /MACHINE:X86 /PROFILE Release\Mark.res
+         Release\Mark.obj
+         Release\stdafx.obj
+         Release\TimeCounter.obj
+         Release\TraversingFile.obj
+         正在生成代码
+         已完成代码的生成
+         Mark.vcxproj -> G:\Projects\TaokaDll\Release\Mark.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Projects\TaokaDll\Release\Mark.exe;#1" /manifest Release\Mark.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Mark.unsuccessfulbuild”。
+         正在对“Release\Mark.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Projects\TaokaDll\Mark\Mark.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.96
