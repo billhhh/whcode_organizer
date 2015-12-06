@@ -1,0 +1,94 @@
+﻿生成启动时间为 14-4-16 15:43:51。
+     1>项目“I:\答题卡项目\卡格式软件\AnswerCard-type3-V1.0\AnswerCard\AnswerCard.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\AnswerCard.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /Id:\Qt\4.8.2\include /I.\GeneratedFiles\Debug /Id:\Qt\4.8.2\include\QtCore /Id:\Qt\4.8.2\include\QtGui /Id:\Qt\4.8.2\include\QtXml /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ACSaveDlg.cpp AddPageDlg.cpp AnchorDlg.cpp AnchorRectDlg.cpp AnswerCard.cpp AnswerCardDlg3.cpp AnswerCardProcessing.cpp BarCodeDlg.cpp CardSetDlg.cpp ClearDlg.cpp ClipDlg.cpp CreateCardDlg.cpp DataIO.cpp FillPointDlg.cpp GeneratedFiles\Debug\moc_AnswerCardDlg3.cpp GeneratedFiles\Debug\moc_CardSetDlg.cpp GeneratedFiles\Debug\moc_FillPointDlg.cpp GeneratedFiles\Debug\moc_MarkerMakeDlg.cpp GeneratedFiles\Debug\moc_PagePointDlg.cpp InputNumberDlg.cpp IsFrontDlg.cpp LineDetectDlg.cpp MarkerMakeDlg.cpp PagePointDlg.cpp main.cpp
+         ACSaveDlg.cpp
+         AddPageDlg.cpp
+         AnchorDlg.cpp
+         AnchorRectDlg.cpp
+         AnswerCard.cpp
+         AnswerCardDlg3.cpp
+     1>i:\答题卡项目\卡格式软件\answercard-type3-v1.0\answercard\XmlIO\XmlIO.h(22): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“XmlIo”的左侧
+         AnswerCardProcessing.cpp
+         BarCodeDlg.cpp
+         CardSetDlg.cpp
+         ClearDlg.cpp
+         ClipDlg.cpp
+         CreateCardDlg.cpp
+         DataIO.cpp
+         FillPointDlg.cpp
+         moc_AnswerCardDlg3.cpp
+         moc_CardSetDlg.cpp
+         moc_FillPointDlg.cpp
+         moc_MarkerMakeDlg.cpp
+         moc_PagePointDlg.cpp
+         InputNumberDlg.cpp
+         正在生成代码...
+         正在编译...
+         IsFrontDlg.cpp
+         LineDetectDlg.cpp
+         MarkerMakeDlg.cpp
+         PagePointDlg.cpp
+         main.cpp
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /Id:\Qt\4.8.2\include /I.\GeneratedFiles\Debug /Id:\Qt\4.8.2\include\QtCore /Id:\Qt\4.8.2\include\QtGui /Id:\Qt\4.8.2\include\QtXml /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_AnswerCardDlg.cpp
+         qrc_AnswerCardDlg.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\答题卡项目\卡格式软件\AnswerCard-type3-V1.0\Win32\Debug\\ac3.exe" /NOLOGO /LIBPATH:d:\Qt\4.8.2\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtXmld4.lib opencv_calib3d246d.lib opencv_contrib246d.lib opencv_core246d.lib opencv_features2d246d.lib opencv_flann246d.lib opencv_gpu246d.lib opencv_highgui246d.lib opencv_imgproc246d.lib opencv_legacy246d.lib opencv_ml246d.lib opencv_objdetect246d.lib opencv_ts246d.lib opencv_video246d.lib /MANIFEST /ManifestFile:"Debug\ac3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\答题卡项目\卡格式软件\AnswerCard-type3-V1.0\Win32\Debug\ac3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\答题卡项目\卡格式软件\AnswerCard-type3-V1.0\Win32\Debug\ac3.lib" /MACHINE:X86 Debug\ACSaveDlg.obj
+         Debug\AddPageDlg.obj
+         Debug\AnchorDlg.obj
+         Debug\AnchorRectDlg.obj
+         Debug\AnswerCard.obj
+         Debug\AnswerCardDlg3.obj
+         Debug\AnswerCardProcessing.obj
+         Debug\BarCodeDlg.obj
+         Debug\CardSetDlg.obj
+         Debug\ClearDlg.obj
+         Debug\ClipDlg.obj
+         Debug\CreateCardDlg.obj
+         Debug\DataIO.obj
+         Debug\FillPointDlg.obj
+         Debug\moc_ACSaveDlg.obj
+         Debug\moc_AddPageDlg.obj
+         Debug\moc_AnchorDlg.obj
+         Debug\moc_AnchorRectDlg.obj
+         Debug\moc_AnswerCardDlg3.obj
+         Debug\moc_BarCodeDlg.obj
+         Debug\moc_CardSetDlg.obj
+         Debug\moc_ClearDlg.obj
+         Debug\moc_ClipDlg.obj
+         Debug\moc_CreateCardDlg.obj
+         Debug\moc_FillPointDlg.obj
+         Debug\moc_InputNumberDlg.obj
+         Debug\moc_IsFrontDlg.obj
+         Debug\moc_LineDetectDlg.obj
+         Debug\moc_MarkerMakeDlg.obj
+         Debug\moc_PagePointDlg.obj
+         Debug\qrc_AnswerCardDlg.obj
+         Debug\InputNumberDlg.obj
+         Debug\IsFrontDlg.obj
+         Debug\LineDetectDlg.obj
+         Debug\main.obj
+         Debug\MarkerMakeDlg.obj
+         Debug\MarkersBoundaryTable.obj
+         Debug\PagePointDlg.obj
+         Debug\ChineseCode.obj
+         Debug\DataTypeConversion.obj
+         Debug\ACUnzip.obj
+         Debug\ACZip.obj
+         LINK : 没有找到 I:\答题卡项目\卡格式软件\AnswerCard-type3-V1.0\Win32\Debug\\ac3.exe 或上一个增量链接没有生成它；正在执行完全链接
+         AnswerCard.vcxproj -> I:\答题卡项目\卡格式软件\AnswerCard-type3-V1.0\Win32\Debug\ac3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"I:\答题卡项目\卡格式软件\AnswerCard-type3-V1.0\Win32\Debug\\ac3.exe;#1" /manifest Debug\ac3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\AnswerCard.unsuccessfulbuild”。
+         正在对“Debug\AnswerCard.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“I:\答题卡项目\卡格式软件\AnswerCard-type3-V1.0\AnswerCard\AnswerCard.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:30.47

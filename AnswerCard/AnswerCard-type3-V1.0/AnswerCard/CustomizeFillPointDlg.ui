@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomizeFillPointDlg</class>
+ <widget class="QDialog" name="CustomizeFillPointDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>173</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>自定义填涂点</string>
+  </property>
+  <layout class="QGridLayout" name="mainGridLayout">
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>5</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="fillPointGroupBox">
+     <property name="title">
+      <string>自定义填涂点定位</string>
+     </property>
+     <layout class="QGridLayout" name="groupGridLayout">
+      <item row="0" column="0">
+       <layout class="QFormLayout" name="topLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>填涂点类型：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="typeComboBox">
+          <item>
+           <property name="text">
+            <string>座位号</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>考场号</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>试室号</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>首考生号</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>缺考</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>试卷类型</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>准考证号</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>科目号</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>选做题</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>违纪</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="midLayout">
+        <item>
+         <widget class="QPushButton" name="addBtn">
+          <property name="text">
+           <string>添加填涂点</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="confirmBtn">
+          <property name="text">
+           <string>确认填涂区域</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QGridLayout" name="bottomLayout">
+        <item row="0" column="1">
+         <widget class="QPushButton" name="deleteBtn">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QListWidget" name="list"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>typeComboBox</tabstop>
+  <tabstop>addBtn</tabstop>
+  <tabstop>confirmBtn</tabstop>
+  <tabstop>list</tabstop>
+  <tabstop>deleteBtn</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

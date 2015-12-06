@@ -1,0 +1,139 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'AnswerCardDlg3.h'
+**
+** Created: Tue Feb 25 18:58:25 2014
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../AnswerCardDlg3.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'AnswerCardDlg3.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_AnswerCardDlg3[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      19,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      16,   15,   15,   15, 0x09,
+      42,   15,   15,   15, 0x09,
+      68,   15,   15,   15, 0x09,
+      93,   15,   15,   15, 0x09,
+     118,   15,   15,   15, 0x09,
+     131,   15,   15,   15, 0x09,
+     144,   15,   15,   15, 0x09,
+     156,   15,   15,   15, 0x09,
+     171,   15,   15,   15, 0x09,
+     188,   15,   15,   15, 0x09,
+     200,   15,   15,   15, 0x09,
+     218,   15,   15,   15, 0x09,
+     236,   15,   15,   15, 0x09,
+     253,   15,   15,   15, 0x09,
+     276,  272,   15,   15, 0x09,
+     293,  272,   15,   15, 0x09,
+     313,   15,   15,   15, 0x09,
+     332,   15,   15,   15, 0x09,
+     352,  272,   15,   15, 0x09,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_AnswerCardDlg3[] = {
+    "AnswerCardDlg3\0\0on_openImageBtn_clicked()\0"
+    "on_importXMLBtn_clicked()\0"
+    "on_saveFileBtn_clicked()\0"
+    "on_openFileBtn_clicked()\0anchorDone()\0"
+    "markerDone()\0enableDlg()\0barCodeBegin()\0"
+    "fillPointBegin()\0clipBegin()\0"
+    "markerMakeBegin()\0lineDetectBegin()\0"
+    "lineDetectDone()\0markerMakeDelete()\0"
+    "idx\0clipClicked(int)\0barCodeClicked(int)\0"
+    "fillPointClicked()\0markerMakeClicked()\0"
+    "pageChanged(int)\0"
+};
+
+void AnswerCardDlg3::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        AnswerCardDlg3 *_t = static_cast<AnswerCardDlg3 *>(_o);
+        switch (_id) {
+        case 0: _t->on_openImageBtn_clicked(); break;
+        case 1: _t->on_importXMLBtn_clicked(); break;
+        case 2: _t->on_saveFileBtn_clicked(); break;
+        case 3: _t->on_openFileBtn_clicked(); break;
+        case 4: _t->anchorDone(); break;
+        case 5: _t->markerDone(); break;
+        case 6: _t->enableDlg(); break;
+        case 7: _t->barCodeBegin(); break;
+        case 8: _t->fillPointBegin(); break;
+        case 9: _t->clipBegin(); break;
+        case 10: _t->markerMakeBegin(); break;
+        case 11: _t->lineDetectBegin(); break;
+        case 12: _t->lineDetectDone(); break;
+        case 13: _t->markerMakeDelete(); break;
+        case 14: _t->clipClicked((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 15: _t->barCodeClicked((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 16: _t->fillPointClicked(); break;
+        case 17: _t->markerMakeClicked(); break;
+        case 18: _t->pageChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData AnswerCardDlg3::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject AnswerCardDlg3::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_AnswerCardDlg3,
+      qt_meta_data_AnswerCardDlg3, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &AnswerCardDlg3::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *AnswerCardDlg3::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *AnswerCardDlg3::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_AnswerCardDlg3))
+        return static_cast<void*>(const_cast< AnswerCardDlg3*>(this));
+    return QDialog::qt_metacast(_clname);
+}
+
+int AnswerCardDlg3::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 19)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 19;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

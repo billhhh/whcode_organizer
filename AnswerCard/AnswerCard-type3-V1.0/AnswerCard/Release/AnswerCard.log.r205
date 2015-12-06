@@ -1,0 +1,50 @@
+﻿生成启动时间为 2013/11/15 18:20:02。
+     1>项目“F:\Project\QT_VS\AnswerCard2-V1.2\AnswerCard\AnswerCard.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\AnswerCard.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.2\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.2\include\QtCore /ID:\Qt\4.8.2\include\QtGui /ID:\Qt\4.8.2\include\QtXml /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AnswerCard.cpp
+         AnswerCard.cpp
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Project\QT_VS\AnswerCard2-V1.2\Win32\Release\\ac3.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.2\lib qtmain.lib QtCore4.lib QtGui4.lib QtXml4.lib opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_ts246.lib opencv_video246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ac3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\Project\QT_VS\AnswerCard2-V1.2\Win32\Release\ac3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project\QT_VS\AnswerCard2-V1.2\Win32\Release\ac3.lib" /MACHINE:X86 Release\ACSaveDlg.obj
+         Release\AnchorDlg.obj
+         Release\AnswerCard.obj
+         Release\AnswerCardDlg3.obj
+         Release\AnswerCardProcessing.obj
+         Release\BarCodeDlg.obj
+         Release\ClipDlg.obj
+         Release\DataIO.obj
+         Release\FillPointDlg.obj
+         Release\qrc_AnswerCardDlg.obj
+         Release\moc_ACSaveDlg.obj
+         Release\moc_AnchorDlg.obj
+         Release\moc_AnswerCardDlg3.obj
+         Release\moc_BarCodeDlg.obj
+         Release\moc_ClipDlg.obj
+         Release\moc_FillPointDlg.obj
+         Release\moc_InputNumberDlg.obj
+         Release\moc_IsFrontDlg.obj
+         Release\moc_LineDetectDlg.obj
+         Release\moc_MarkerMakeDlg.obj
+         Release\InputNumberDlg.obj
+         Release\IsFrontDlg.obj
+         Release\LineDetectDlg.obj
+         Release\main.obj
+         Release\MarkerMakeDlg.obj
+         Release\MarkersBoundaryTable.obj
+         Release\ChineseCode.obj
+         Release\DataTypeConversion.obj
+         AnswerCard.vcxproj -> F:\Project\QT_VS\AnswerCard2-V1.2\Win32\Release\ac3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Project\QT_VS\AnswerCard2-V1.2\Win32\Release\\ac3.exe;#1" /manifest Release\ac3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\AnswerCard.unsuccessfulbuild”。
+         正在对“Release\AnswerCard.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Project\QT_VS\AnswerCard2-V1.2\AnswerCard\AnswerCard.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.00
